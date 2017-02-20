@@ -4,7 +4,7 @@
 # This script attempts to gather information on 
 # a variety of Linux hosts.  Files that exist in one distribution of
 # Linux may not exist in another distribution (SuSE vs Red Hat).
-# Please ignore any errors reported about files not existing.
+# Please check the error-log file script_log/misc_err.log.
 #
 #####################################################################
 #
@@ -525,11 +525,6 @@ else
 	echo >> $DBH
 
 fi
-
-
-
-
-
 
 
 
